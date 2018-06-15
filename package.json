@@ -1,0 +1,15 @@
+{
+  "name":         "Oauth",
+  "version":      "0.1",
+  "description":  "An object for calculating Oauth hashes. Each hash calculation should instantiate its own Oauth instance.",
+  "author":       "Steve Dekorte",
+  "website":      "http://iolanguage.org/",
+  "readme":       "README.md",
+  "protos":       ["Oauth", "OauthRequest", "OauthResponse", "OauthSession"],
+  "dependencies": {
+    "libs":     ["ssl"],
+    "headers":  ["openssl/ssl.h"],
+    "protos":   [],
+    "packages": []
+  }
+}
